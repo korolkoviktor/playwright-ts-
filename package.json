@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "playwright": "^1.44.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12"
+  },
+  "scripts": {
+    "test:chrome": "npx playwright test --project chromium --headed"
+  }
+}
